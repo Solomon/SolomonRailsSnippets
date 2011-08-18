@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[describe "$1" do
+
+	$2
+
+end]]></content>
+    <tabTrigger>desc</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>generic test description</description>
+</snippet>

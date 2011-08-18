@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[it "should require a $1" do
+	no_$1_$2 = $3.new(@attr.merge(:$1 => ""))
+	no_$1_$2.should_not be_valid
+end]]></content>
+    <tabTrigger>btest</tabTrigger>
+    <scope>source.ruby</scope>
+    <description>test for blank</description>
+</snippet>
