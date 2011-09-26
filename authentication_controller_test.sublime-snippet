@@ -23,7 +23,7 @@ describe "for signed in users" do
 		response.should have_selector("title", :content => "$2")
 	end
 end]]></content>
-    <tabTrigger>authtest</tabTrigger>
+    <tabTrigger>authentication</tabTrigger>
     <scope>source.ruby</scope>
     <description>authentication controller tests</description>
 </snippet>
